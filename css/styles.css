@@ -140,6 +140,28 @@ footer {
   background-color: #006747;
 }
 
+.grid-container {
+  display: grid;
+  row-gap: 50px;
+  column-gap: 20px;
+  grid-template-columns: auto auto auto auto;
+  background-image: url("../media/nw_admin.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  padding: 40px;
+}
+
+
+.grid-item {
+  background-color: #fff;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
 /*Media Query for Mobile Viewport */
 @media only screen and (max-width: 630px) {
   .container{
