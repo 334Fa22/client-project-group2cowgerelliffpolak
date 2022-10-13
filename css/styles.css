@@ -19,7 +19,7 @@ body, main, p, h1, h2, h3, h4{
 
 .container{
   width: 100%;
-  height: 100vh;
+  height: 20vh;
 }
 
 .navbar{
@@ -144,7 +144,7 @@ footer {
 @media only screen and (max-width: 630px) {
   .container{
     width: 100%;
-    height: 100vh;
+    height: 20vh;
   }
 
   .navbar{
