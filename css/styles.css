@@ -22,6 +22,7 @@ body, main, p, h1, h2, h3, h4{
   height: 20vh;
   position: fixed;
   background-color: #fff;
+  padding-bottom: 10px;
 }
 
 .navbar{
@@ -125,7 +126,7 @@ body, main, p, h1, h2, h3, h4{
   padding-left: 15px;
   padding-bottom: 0px;
   height: auto;
-  width: 25%;
+  width: 22%;
 }
 
 footer p {
@@ -194,7 +195,7 @@ footer {
 @media only screen and (max-width: 630px) {
   .container{
     width: 100%;
-    height: 10vh;
+    height: 15vh;
     background-color: #fff;
     position: fixed;
     padding-bottom: 20px;
