@@ -191,6 +191,10 @@ footer {
   text-decoration: none;
 }
 
+.footer-padding{
+  padding-top:200px;
+}
+
 /*Media Query for Mobile Viewport */
 @media only screen and (max-width: 630px) {
   .container{
@@ -352,6 +356,24 @@ footer {
     text-decoration: none;
   }
 
+  footer p {
+    font-size: 0.75em;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  footer {
+    background-color: #006747;
+  }
+
+  .footer-padding{
+    padding-top:40px;
+  }
+
 }
 
 /*Media Query smallest size */
@@ -362,5 +384,19 @@ footer {
 
   .grid-container{
     display: flex;
+  }
+
+  footer p {
+    font-size: 0.75em;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  footer {
+    background-color: #006747;
   }
 }
