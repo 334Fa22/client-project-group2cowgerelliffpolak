@@ -7,6 +7,24 @@ body, main, p, h1, h2, h3, h4{
   font-family: "Dosis", sans-serif;
 }
 
+form{
+     width: 70;
+     top-margin: 0;
+     bottom-margin: 0;
+     left-margin: auto;
+     right-margin: auto;
+   }
+
+   form-grid{
+     display: grid;
+     grid-template-columns: auto auto;
+     grid-gap: 20px;
+   }
+
+   .btn{
+     grid-column: 1 / span 2;
+   }
+
 .hero {
   background-color: #006747;
   color: #000000;
@@ -19,7 +37,7 @@ body, main, p, h1, h2, h3, h4{
 
 .container{
   width: 100%;
-  height: 20vh;
+  height: auto;
   position: fixed;
   background-color: #fff;
   padding-bottom: 10px;
@@ -122,11 +140,11 @@ body, main, p, h1, h2, h3, h4{
 
 .container img{
   position: flex;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-left: 15px;
   padding-bottom: 0px;
   height: auto;
-  width: 22%;
+  width: 20%;
 }
 
 footer p {
@@ -192,14 +210,32 @@ footer {
 }
 
 .footer-padding{
-  padding-top:200px;
+  padding-top:10px;
 }
 
 /*Media Query for Mobile Viewport */
 @media only screen and (max-width: 630px) {
+  form{
+     width: 70;
+     top-margin: 0;
+     bottom-margin: 0;
+     left-margin: auto;
+     right-margin: auto;
+   }
+
+   form-grid{
+     display: grid;
+     grid-template-columns: auto auto;
+     grid-gap: 20px;
+   }
+
+   .btn{
+     grid-column: 1 / span 2;
+   }
+
   .container{
     width: 100%;
-    height: 15vh;
+    height: auto;
     background-color: #fff;
     position: fixed;
     padding-bottom: 20px;
@@ -371,13 +407,39 @@ footer {
   }
 
   .footer-padding{
-    padding-top:40px;
+    padding-top:10px;
   }
 
 }
 
 /*Media Query smallest size */
 @media only screen and (max-width: 300px){
+  .container{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background-color: #fff;
+    padding-bottom: 10px;
+  }
+
+  form{
+     width: 70;
+     top-margin: 0;
+     bottom-margin: 0;
+     left-margin: auto;
+     right-margin: auto;
+   }
+
+   form-grid{
+     display: grid;
+     grid-template-columns: auto auto;
+     grid-gap: 20px;
+   }
+
+   .btn{
+     grid-column: 1 / span 2;
+   }
+
   .container img{
     display: none;
   }
