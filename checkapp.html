@@ -7,55 +7,25 @@
   -->
   <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>CatPaws | Check Application Status for Graduate and International Students</title>
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/stylesapp.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display:400i|Roboto&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="images/favicon.ico">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.ico">
 	<link rel="icon" sizes="192x192" href="images/favicon.png">
   </head>
-  <style>
-  .grid-styles{
-    display: grid;
-    row-gap: 50px;
-    column-gap: 20px;
-    width: 75%;
-    height: auto;
-    padding: 100px;
-  }
 
-.grid-container {
-  display: grid;
-  background-color: #7d7a7d;
-  grid-template-columns: auto auto auto;
-  padding: 10px;
-  color: #006747;
-}
-
-.grid-item {
-  background-color: rgb(255, 255, 255);
-  border: 2px solid rgb(0, 106, 78);
-  padding: 20px;
-  font-size: 20px;
-  text-align: center;
-}
-fieldset {
-  background-color: #ffffff;
-  font-size: 20px;
-  padding: 20px;
-  width: 45%;
-}
-</style>
   <body>
+
 
 <!-- Navigation and Logo -->
 <header>
     <div class="container">
-      <a href="index.html"><img src="media/catpaws-logo-final.jpg"></a>
+      <a href="index.html"><img src="media/catpaws-logo-final.jpg" alt="Catpaws Logo"></a>
       <nav class="navbar">
         <div class="hamburger-menu">
           <div class="line line-1"></div>
@@ -126,23 +96,23 @@ fieldset {
   <div class="grid-container">
     <div class="grid-styles grid-link">
       <div class="grid-item"><h3>Admission Applications</h3>for Graduation, RN to BSN and International applicants only</div>
-      <div class="grid-item"><h3>Are you a domestic undergraduate student?</h3> Start your application here!</div>
+      <div class="grid-item"><h3>Are you a domestic undergraduate student?</h3><a href="blank.html">Start your application here!</a></div>
       <div class="grid-item"><h3>Any Questions?</h3>If you have questions about the application or admission process, please call us at 1.800.633.1175.</div>
       <div class="grid-item"><h3>Still having trouble?</h3>For technical issues, contact the Computing Help Desk at 660.562.1634 or helpdesk@nwmissouri.edu.</div>
-    </div>
-  </div>
 
-
-  <fieldset>
+    <div class="grid-item2">
+      <fieldset>
             <h3> New Users </h3>
             <p>Create an account and start your admission application</p>
-            <a href="">Create Your Username and Pin</a>
+            <a href="blank.html">Create Your Username and Pin</a>
           </fieldset>
+        </div>
           <br>
+        <div class="grid-item2">
           <fieldset>
             <h3> Returning Users</h3>
             <p> Login using the Username and PIN that you previously created</p>
-            <a href="">Forgot Username and PIN?</a>
+            <a href="blank.html">Forgot Username and PIN?</a>
             <br><br>
             <label for="CheckAppUsername"> Username:</label>
             <input type="text" name="CheckAppUsername" id="CheckAppUsername" required>
@@ -151,6 +121,10 @@ fieldset {
             <br><br>
             <input type="submit" id="submit" value="Login" class="btn">
           </fieldset>
+        </div>
+      </div>
+    </div>
+
 
 </main>
 
