@@ -1,162 +1,128 @@
 <!DOCTYPE html>
 <!--
-  checkapp.html
+  textbooks.html
   Students: Landyn Cowger, Ryann Elliff, Mikayla Polak
-  File Name: checkapp.html
+  File Name: index.html
   Date: 10/11/22
+
   -->
   <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>CatPaws | Check Application Status for Graduate and International Students</title>
-        <link rel="stylesheet" href="css/styles.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display:400i|Roboto&display=swap" rel="stylesheet">
-        <link rel="shortcut icon" href="images/favicon.ico">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.ico">
-	<link rel="icon" sizes="192x192" href="images/favicon.png">
+    <title>CatPaws | Check Application Status</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display:400i|Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="media/favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  	<link rel="icon" type="media/png" sizes="32x32" href="media/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="media/favicon.ico">
+  	<link rel="icon" sizes="192x192" href="media/favicon.png">
   </head>
-  <style>
-  .grid-styles{
-    display: grid;
-    row-gap: 50px;
-    column-gap: 20px;
-    width: 75%;
-    height: auto;
-    padding: 100px;
-  }
 
-.grid-container {
-  display: grid;
-  background-color: #7d7a7d;
-  grid-template-columns: auto auto auto;
-  padding: 10px;
-  color: #006747;
-}
-
-.grid-item {
-  background-color: rgb(255, 255, 255);
-  border: 2px solid rgb(0, 106, 78);
-  padding: 20px;
-  font-size: 20px;
-  text-align: center;
-}
-fieldset {
-  background-color: #ffffff;
-  font-size: 20px;
-  padding: 20px;
-  width: 45%;
-}
-</style>
   <body>
-
-<!-- Navigation and Logo -->
-<header>
-    <div class="container">
-      <a href="index.html"><img src="media/catpaws-logo-final.jpg"></a>
-      <nav class="navbar">
-        <div class="hamburger-menu">
-          <div class="line line-1"></div>
-          <div class="line line-2"></div>
-          <div class="line line-3"></div>
-        </div>
-
-        <ul class="nav-list">
-          <li class="nav-item">
+    <!-- Navigation and Logo -->
+    <div id="go-down">
+      <div class="topBar">
+        <a href="index.html"><img src="media/catpaws-logo-final.jpg" class="logo"></a>
+        <nav class="navbar">
+          <div class="hamburger-menu">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+          </div>
+          <ul class="nav-list">
+            <li class="nav-item">
             <a href="index.html" class="nav-link"> Home</a>
           </li>
-
           <li class="nav-item">
             <a href="blank.html" class="nav-link"> Login / Enter Secure Area</a>
           </li>
-
           <li class="nav-item">
             <a href="blank.html" class="nav-link"> Apply for Admissions</a>
           </li>
-
           <li class="nav-item">
             <a href="checkapp.html" class="nav-link">Check Application Status for Graduate and International Students</a>
           </li>
-
           <li class="nav-item">
             <a href="blank.html" class="nav-link">Apply for Housing</a>
           </li>
-
           <li class="nav-item">
             <a href="blank.html" class="nav-link">Class Schedule in Detail</a>
           </li>
-
           <li class="nav-item">
             <a href="blank.html" class="nav-link">Class Openings at a Glance</a>
           </li>
-
           <li class="nav-item">
             <a href="onlineclasses.html" class="nav-link">Online Class Openings</a>
           </li>
-
           <li class="nav-item">
             <a href="blank.html" class="nav-link">Transfer Equivalencies</a>
           </li>
-
           <li class="nav-item">
             <a href="textbooks.html" class="nav-link">Textbook Information</a>
           </li>
-
           <li class="nav-item">
             <a href="blank.html" class="nav-link">Account Payment Center</a>
           </li>
-
           <li class="nav-item">
             <a href="blank.html" class="nav-link">Accessbility Mode</a>
           </li>
-
           <li class="nav-item">
             <a href="blank.html" class="nav-link">Forgot Password?</a>
           </li>
         </ul>
       </nav>
     </div>
-</header>
-
-<!--Main Content-->
-<main>
-
-  <div class="grid-container">
-    <div class="grid-styles grid-link">
-      <div class="grid-item"><h3>Admission Applications</h3>for Graduation, RN to BSN and International applicants only</div>
-      <div class="grid-item"><h3>Are you a domestic undergraduate student?</h3> Start your application here!</div>
-      <div class="grid-item"><h3>Any Questions?</h3>If you have questions about the application or admission process, please call us at 1.800.633.1175.</div>
-      <div class="grid-item"><h3>Still having trouble?</h3>For technical issues, contact the Computing Help Desk at 660.562.1634 or helpdesk@nwmissouri.edu.</div>
-    </div>
   </div>
 
 
-  <fieldset>
-            <h3> New Users </h3>
-            <p>Create an account and start your admission application</p>
-            <a href="">Create Your Username and Pin</a>
-          </fieldset>
-          <br>
-          <fieldset>
-            <h3> Returning Users</h3>
-            <p> Login using the Username and PIN that you previously created</p>
-            <a href="">Forgot Username and PIN?</a>
-            <br><br>
-            <label for="CheckAppUsername"> Username:</label>
-            <input type="text" name="CheckAppUsername" id="CheckAppUsername" required>
-            <br><br><label for="CheckAppPass"> Password:</label>
-            <input type="text" name="CheckAppPass" id="CheckAppPass" required>
-            <br><br>
-            <input type="submit" id="submit" value="Login" class="btn">
-          </fieldset>
 
-</main>
+<!-- Main Content-->
+    <main>
+      <div class="grid-container">
+        <div class="form-container">
+          <h1>Admission Application</h1>
+          <p><font color="red">*for Graduate, RN to BSN and International applicants only</font></p>
+          <p>Are you a domestic undergraduate student? Start your undergraduate application for admission here.</p>
+        </div>
 
+          <div class="ca-container">
+            <div class="form-container">
+              <h3> Returning Users </h3>
+              <p> Login using the same username and PIN that you previously created</p>
+              <p> Forgot your username or pin?</p>
+
+              <label for="Username"> Username:</label>
+              <input type="text" name="Username" id="Username">
+              <br><br>
+              <label for="Password"> Password:</label>
+              <input type="text" name="Password" id="Password">
+            <br><br>
+            <input type="submit" id="submit" value="Login" class="button-74">
+            <h3> New Users</h3>
+            <p>Create an account to start your admission application.</p>
+            <p> Create your username and PIN. </p>
+            </div>
+
+            <div class="form-container ca-spacing">
+              <p>If you have questions about the application or admission process, please call us at 1.800.633.1175.</p>
+              <p>For technical issues, contact the Computing Help Desk at 660.562.1634 or helpdesk@nwmissouri.edu.</p>
+            </div>
+          </div>
+
+
+
+
+
+      </div>
+      <div class="footerRow">
+      <img src="media/mobile-nw-logo.png" alt="Northwest Missouri State Uiversity Logo">
+      </div>
+    </main>
 
 <!--Footer-->
-    <footer class="footer-padding">
+    <footer  class="footer-padding">
 
         <div class="copyright">
           <p>&copy; Copyright 2022.Ryann Elliff, MaKayla Polak, Landyn Cowger</p>
@@ -166,5 +132,6 @@ fieldset {
       </footer>
 
     <script src="script.js"></script>
+
   </body>
 </html>
