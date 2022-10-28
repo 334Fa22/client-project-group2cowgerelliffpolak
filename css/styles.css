@@ -110,6 +110,36 @@ margin: 10px;
 font-size: auto;
 }
 
+.access-container{
+  width: 100%;
+  margin: 0%;
+  background-color: #fff;
+  color:  #0C8E33;
+  font-size: 1.5em;
+  padding-top: 50px;
+}
+
+.access-container a{
+  color: #0C8E33;
+  text-decoration: none;
+}
+
+.access-container a:hover{
+  text-decoration: none;
+  color: gray;
+}
+
+
+.form-container a{
+  color: #0C8E33;
+  text-decoration: none;
+}
+
+.form-container a:hover{
+  text-decoration: none;
+  color: gray;
+}
+
 #go-down{
   height: 80px;
 }
