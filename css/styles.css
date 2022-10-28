@@ -337,6 +337,11 @@ footer{
     padding-top: 40px;
     font-size: 8%;
   }
+  .footerRow{
+    width: 100%;
+    background-color: #fff;
+    margin: 0;
+  }
 }
 
 @media screen and (min-width: 600px), print{
@@ -348,6 +353,12 @@ footer{
     width: 90%;
     height: auto;
     padding: 10px;
+}
+.footerRow{
+  width: 100%;
+  background-color: #fff;
+  margin: 0;
+}
 }
 
 /* Media Query for Tablet Viewport */
@@ -414,6 +425,8 @@ footer{
     height: auto;
     padding: 10px;
   }
+
+
 
 
   /* Tablet Viewport: Style rule for header */
