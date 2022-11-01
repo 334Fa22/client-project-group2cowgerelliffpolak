@@ -351,6 +351,8 @@ footer{
   footer{
     background-color:#006747;
     color: #fff;
+    width: 100%;
+    margin: 0;
   }
 
   .ca-container{
