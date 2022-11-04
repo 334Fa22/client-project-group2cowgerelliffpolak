@@ -8,13 +8,13 @@
   -->
   <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>CatPaws | Textbook Information</title>
     <link rel="stylesheet" href="css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display:400i|Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display:400iRoboto&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="media/favicon.ico">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
   	<link rel="icon" type="media/png" sizes="32x32" href="media/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="media/favicon.ico">
   	<link rel="icon" sizes="192x192" href="media/favicon.png">
@@ -24,7 +24,7 @@
     <!-- Navigation and Logo -->
     <div id="go-down">
       <div class="topBar">
-        <a href="index.html"><img src="media/catpaws-logo-final.jpg" class="logo"></a>
+        <a href="index.html"><img src="media/catpaws-logo-final.jpg" alt="catpaws logo" class="logo"></a>
         <nav class="navbar">
           <div class="hamburger-menu">
             <div class="line line-1"></div>
@@ -85,7 +85,7 @@
           <h1>Weclome, bearcats!</h1>
           <p>The Textbooks listed for each course are not guaranteed to be all inclusive but to give you some idea of the textbook(s) that will be used for the selected course(s) that you are viewing.</p>
           <p>Due to faculty changes and other factors the textbooks and required materials might change prior to classes beginning. Some courses require purchased materials to accompany the rental materials. To view required textbooks/materials that will need to be purchased use the links below.</p>
-          <p>Online Professional (OP) students can find your textbooks with the <a href"https://cite5.nwmissouri.edu/textbookFinder/#/student/textbook-finder">Online Professional Textbook Finder</a></p>
+          <p>Online Professional (OP) students can find your textbooks with the <a href="https://cite5.nwmissouri.edu/textbookFinder/#/student/textbook-finder">Online Professional Textbook Finder</a></p>
         </div>
 
         <div class="form-container">
@@ -95,18 +95,18 @@
         </div>
 
       <fieldset class="form-container">
-        <p><font color="red">* Term selection required for all search criterias</font></p>
-        <label for="Select-Term"> Select Term * :</label>
-        <select name="references" id="reference" required class="options">
+        <p class="requiredText">* Term selection required for all search criterias</p>
+        <label> Select Term * :</label>
+        <select name="Terms" id="term" required class="options">
           <option value="Fall_2022">Fall 2022</option>
           <option value="Spring_2023">Spring 2023</option>
           <option value="Summer_2023">Summer 2023</option>
           <option value="Fall_2023">Fall 2023</option>
         </select>
         <br>
-        <p><font color="red">* Department selection required for below search options</font></p>
-        <label for="Select-Dept"> Select Department * :</label>
-        <select name="references" id="reference" required class="options">
+        <p class="requiredText">* Department selection required for below search options</p>
+        <label> Select Department * :</label>
+        <select name="Departments" id="Department" class="options">
           <option value="Accounting/51">Accounting/51</option>
           <option value="Agriculture/03">Agriculture/03</option>
           <option value="Bio_Sciences/04">Biologicial Sciences/04</option>
@@ -158,16 +158,16 @@
             <option value="Theatre/43">Theatre/43</option>
           </select>
           <br>
-          <label for="Select-Level"> Select Level: </label>
-          <select name="references" id="reference"class="options">
+          <label> Select Level: </label>
+          <select name="Levels" id="level" class="options">
             <option value="All">ALL</option>
             <option value="Undergrad">Undergraduate</option>
             <option value="Grad">Graduate</option>
             <option value="Specialist">Specialist</option>
           </select>
           <br>
-          <label for="Part-of-Term"> Select Part of Term: </label>
-          <select name="references" id="reference" class="options">
+          <label> Select Part of Term: </label>
+          <select name="TermPart" id="Part" class="options">
             <option value="All">ALL</option>
             <option value="1&2">1&2 Block</option>
             <option value="2&3">2&3 Block</option>
@@ -183,8 +183,8 @@
             <option value="Third-Block">Third Block</option>
           </select>
           <br>
-          <label for="Course-Attribute">Select Course Attribute: </label>
-          <select name="references" id="reference" class="options">
+          <label>Select Course Attribute: </label>
+          <select name="CourseType" id="Course_Type" class="options">
             <option value="ALL">ALL </option>
             <option value="AMNH">AMNH Science Seminar</option>
             <option value="Blended-Course">Bleded Course</option>
@@ -222,7 +222,7 @@
             <option value="WebCourse">Web Course</option>
           </select>
           <br>
-          <label for="Course-Attribute">Select Instructor: </label>
+          <label>Select Instructor: </label>
           <select name="references" id="reference" class="options">
             <option value="ALL">ALL </option>
             <option value="Abernathy,Deborah">Abernathy,Deborah</option>
@@ -288,29 +288,10 @@
         </fieldset>
 
         <fieldset class="form-container">
-          <p><font color="red">* Search by Course Number ONLY - Other Criteria are ignored</font></p>
-            <label for="CourseNum"> Course Number (5 DIGIT number):</label>
+          <p class="requiredText">* Search by Course Number ONLY - Other Criteria are ignored</p>
+            <label> Course Number (5 DIGIT number):</label>
             <input type="text" name="CourseNum" id="CourseNum">
 
-          <p><font color="red">* Search by Northwest Core ONLY - Other Criteria are ignored</font></p>
-            <label for="CourseNum"> Course Number (5 DIGIT number):</label>
-            <select name="references" id="reference" class="options">
-              <option value="none">None</option>
-              <option value="ALL">ALL </option>
-              <option value="INACTIVE NW Core Western Exp">INACTIVE NW Core Western Exp</option>
-              <option value="IR Digital Literacy">IR Digital Literacy</option>
-              <option value="IR University Seminar">IR University Seminar</option>
-              <option value="NW Core Civics">NW Core Civics</option>
-              <option value="NW Core Fine Arts">NW Core Fine Arts</option>
-              <option value="NW Core Humanities">NW Core Humanities</option>
-              <option value="NW Core Life Sciences">NW Core Life Sciences</option>
-              <option value="NW Core Literature">NW Core Literature</option>
-              <option value="NW Core Mathematics Sciences">NW Core Mathematics Sciences</option>
-              <option value="NW Core Oral Communication">NW Core Oral Communication</option>
-              <option value="NW Core Physical Sciences">NW Core Physical Sciences</option>
-              <option value="NW Core Social/Behavioral Sci">NW Core Social/Behaviorial Sci</option>
-              <option value="NW Core Written Communication">NW Core Written Communication</option>
-            </select>
             <br>
             <input type="submit" id="submit" value="Get Class Openings" class="button-74">
           </fieldset>
