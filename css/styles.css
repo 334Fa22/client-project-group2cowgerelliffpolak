@@ -197,6 +197,17 @@ font-size: smaller;
   color: gray;
 }
 
+main a{
+  color:#0C8E33;
+  text-decoration: none;
+}
+
+main a:hover{
+  text-decoration: none;
+  color: gray;
+}
+
+
 #go-down{
   height: 80px;
 }
