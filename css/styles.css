@@ -11,7 +11,7 @@
 }
 .logo{
   width: 50%;
-  position: fixed;
+  position: absolute;
   padding-top: 20px;
   margin-left: 0%;
 }
@@ -236,6 +236,7 @@ main a:hover{
 
 .grid-styles img{
   width: 100%;
+  display: flex;
 }
 
 .grid-item a{
