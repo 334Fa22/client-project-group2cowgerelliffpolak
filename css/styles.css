@@ -3,16 +3,15 @@
 /* Style rule for header */
 .topBar{
   background-color: #fff;
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100px;
   margin-left: 0;
 
-
 }
 .logo{
   width: 50%;
-  position: absolute;
+  position: fixed;
   padding-top: 20px;
   margin-left: 0%;
 }
@@ -22,10 +21,10 @@
   width: 300px;
   height: 100%;
   background-color: #006747;
-  position: absolute;
+  position: fixed;
   margin-top: 0%;
   right: -300px;
-  display: fixed;
+  display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 40% 0 0 30%;
@@ -71,7 +70,7 @@
 
 .nav-list{
   text-align: right;
-  padding-top: 40px;
+  padding-top: 80px;
 }
 
 .nav-item{
@@ -81,7 +80,7 @@
 
 .nav-link{
   text-decoration: none;
-  font-size: 13px;
+  font-size: 12px;
   color: #eee;
   font-weight: 300;
   letter-spacing: 1px;
@@ -328,6 +327,15 @@ footer{
     height: auto;
     padding: 10px;
 }
+.nav-list{
+  text-align: right;
+  padding-top: 30px;
+}
+
+.nav-link{
+  font-size: 13px;
+}
+}
 
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 630px), print {
@@ -335,6 +343,11 @@ footer{
   /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
   .tablet-desktop {
     display: block;
+  }
+
+  .nav-list{
+    text-align: right;
+    padding-top: 40px;
   }
 
   .mobile {
