@@ -1,136 +1,4 @@
 /* Style rules for mobile viewport */
-body, main, p, h1, h2, h3, h4{
-  font-family: "Dosis", sans-serif;
-}
-
-
-
-.row {
-  display: flex;
-  width: 100%;
-}
-
-body{
-  padding-top: 0px;
-  background-color: #fff;
-  margin:0px;
-
-}
-
-body h1{
-  color: #006747;
-  text-align: center;
-}
-
-form{
-     width: 100%;
-     margin:0;
-   }
-
-   form-grid{
-     display: grid;
-     grid-template-columns: auto auto;
-     grid-gap: 20px;
-   }
-
-select{
-  padding: 3px;
-  margin: 5px;
-}
-
-   .options{
-       cursor: pointer;
-   }
-
-
-   .btn{
-     grid-column: 1 / span 2;
-     margin: 10px;
-     cursor: pointer;
-     background-color: #fff;
-
-   }
-
-
-
-   /* CSS */
-   .button-74 {
-     background-color: #fff;
-     border: 2px solid #006747;
-     border-radius: 30px;
-     box-shadow: #006747 4px 4px 0 0;
-     color: #006747;
-     cursor: pointer;
-     display: inline-block;
-     font-weight: 600;
-     font-size: 12px;
-     padding: 0 18px;
-     line-height: 50px;
-     text-align: center;
-     text-decoration: none;
-     user-select: none;
-     -webkit-user-select: none;
-     touch-action: manipulation;
-     margin-top: 10px;
-   }
-
-   .button-74:hover {
-     background-color: #88D09E;
-   }
-
-   .button-74:active {
-     box-shadow: #006747 2px 2px 0 0;
-     transform: translate(2px, 2px);
-   }
-
-   @media (min-width: 768px) {
-     .button-74 {
-       min-width: 120px;
-       padding: 0 25px;
-     }
-   }
-
-  .container{
-  width: 100%;
-  height: auto;
-  background-color: #fff;
-  margin-top: 0px;
-}
-
-.form-container{
-width: 85%;
-height: auto;
-background-color: #fff;
-margin-top: 0px;
-margin-bottom: 10px;
-padding: 20px 10px 20px 10px;
-text-align: center;
-margin: 10px;
-font-size: smaller;
-}
-
-.access-container{
-  width: 100%;
-  margin: 0%;
-  background-color: #fff;
-  color:  #0C8E33;
-  font-size: 1.5em;
-  padding-top: 50px;
-}
-
-.access-container a{
-  color: #0C8E33;
-  text-decoration: none;
-}
-
-.access-container a:hover{
-  text-decoration: none;
-  color: gray;
-}
-
-#go-down{
-  height: 80px;
-}
 
 /* Style rule for header */
 .topBar{
@@ -202,7 +70,7 @@ font-size: smaller;
 
 .nav-list{
   text-align: right;
-  padding-top: 80px;
+  padding-top: 40px;
 }
 
 .nav-item{
@@ -212,7 +80,7 @@ font-size: smaller;
 
 .nav-link{
   text-decoration: none;
-  font-size: 12px;
+  font-size: 13px;
   color: #eee;
   font-weight: 300;
   letter-spacing: 1px;
@@ -248,13 +116,96 @@ font-size: smaller;
 
 
 /* Style rules for main content */
+body, main, p, h1, h2, h3, h4{
+  font-family: "Dosis", sans-serif;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+body{
+  padding-top: 0px;
+  background-color: #fff;
+  margin:0px;
+
+}
+
+body h1{
+  color: #006747;
+  text-align: center;
+}
+
+form{
+   width: 100%;
+   margin:0;
+ }
+
+form-grid{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+}
+
+select{
+  padding: 3px;
+  margin: 5px;
+}
+
+.options{
+  cursor: pointer;
+}
+
+
+.container{
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  margin-top: 0px;
+}
+
+.form-container{
+width: 85%;
+height: auto;
+background-color: #fff;
+margin-top: 0px;
+margin-bottom: 10px;
+padding: 20px 10px 20px 10px;
+text-align: center;
+margin: 10px;
+font-size: smaller;
+}
+
+.access-container{
+  width: 100%;
+  margin: 0%;
+  background-color: #fff;
+  color:  #0C8E33;
+  font-size: 1.5em;
+  padding-top: 50px;
+}
+
+.access-container a{
+  color: #0C8E33;
+  text-decoration: none;
+}
+
+.access-container a:hover{
+  text-decoration: none;
+  color: gray;
+}
+
+#go-down{
+  height: 80px;
+}
+
 .grid-container{
   background-image: url("../media/mobile-bg-green.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
-  height: 100%;
+  overflow: hidden;
   padding: 50px 5px 30px 5px;
   display: fixed;
   position: center;
@@ -269,6 +220,7 @@ font-size: smaller;
   width: 90%;
   height: auto;
   padding: 10px;
+  position: center;
 }
 
 .grid-styles img{
@@ -297,8 +249,6 @@ font-size: smaller;
   height: auto;
   padding: 10px;
 }
-
-
 
 /*Style rules for footer*/
 footer{
@@ -385,6 +335,8 @@ footer{
 
   .grid-styles{
     grid-template-columns: auto auto auto auto;
+    position: center;
+    padding-left: 60px;
   }
 
   .logo{
