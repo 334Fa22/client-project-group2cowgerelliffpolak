@@ -149,8 +149,9 @@ main a:hover{
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
+  display: grid;
   padding: 50px 5px 30px 5px;
-  position: center;
+  justify-content: center;
   margin: 0;
 }
 
@@ -162,7 +163,7 @@ main a:hover{
   width: 90%;
   height: auto;
   padding: 10px;
-  position: center;
+  justify-content: center;
 }
 
 .grid-styles img{
@@ -448,7 +449,7 @@ footer{
     width: 90%;
     height: auto;
     padding: 10px;
-    position: center;
+    justify-content: center;
   }
 
   .logo{
