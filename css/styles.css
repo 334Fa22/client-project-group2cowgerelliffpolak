@@ -428,22 +428,29 @@ footer{
     display: none;
   }
 
-  .regularNav{
-    padding-left: 20px;
-  }
+
 
   .grid-container{
     background-image: url("../media/nw-adminbuilding.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
   }
 
   .grid-styles{
-    grid-template-columns: auto, auto, auto, auto;
+    display: grid;
+    row-gap: 20px;
+    column-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    width: 90%;
+    height: auto;
+    padding: 10px;
     position: center;
-    padding-left: 60px;
   }
 
   .logo{
-    width: 40%;
+    width: 20%;
     position: fixed;
     padding-top: 10px;
   }
