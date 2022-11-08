@@ -218,6 +218,9 @@ footer{
 }
 
 @media screen and (min-width: 400px), print{
+  .regularNav{
+    display: none;
+  }
 
   .grid-container{
     background-image: url("../media/nw-adminbuilding.jpg");
