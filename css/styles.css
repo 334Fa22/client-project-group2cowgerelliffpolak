@@ -1,6 +1,4 @@
 /* Style rules for mobile viewport */
-
-/*style rules for new nav*/
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
@@ -225,6 +223,8 @@ footer{
   .grid-container{
     background-image: url("../media/nw-adminbuilding.jpg");
     width: 100%;
+    padding-left: 20px;
+    justify-content: center;
   }
 
   .mobileLogo{
@@ -279,7 +279,7 @@ footer{
     display: none;
   }
   .regularNav{
-    display: contents;
+    display: center;
   }
 
   /*style rules for header */
@@ -430,15 +430,14 @@ footer{
   .mobile {
     display: none;
   }
-
-
-
   .grid-container{
     background-image: url("../media/nw-adminbuilding.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+    justify-content: center;
+    padding-left: 30px;
   }
 
   .grid-styles{
@@ -449,7 +448,6 @@ footer{
     width: 90%;
     height: auto;
     padding: 10px;
-    justify-content: center;
   }
 
   .logo{
