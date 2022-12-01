@@ -105,6 +105,31 @@ select{
   margin-top: 0px;
 }
 
+.buttonStyle{
+  background: #008159;
+    border-radius: 999px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+}
+
+.buttonStyle:hover{
+  background-color: #00b47c;
+}
+
+
 .form-container{
 width: 85%;
 height: auto;
