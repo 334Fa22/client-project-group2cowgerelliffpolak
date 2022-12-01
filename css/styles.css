@@ -1,4 +1,6 @@
 /* Style rules for mobile viewport */
+
+/*style rules for new nav*/
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
@@ -59,6 +61,7 @@ body{
   padding-top: 0px;
   background-color: #fff;
   margin:0px;
+  
 
 }
 
@@ -86,8 +89,6 @@ select{
 .options{
   cursor: pointer;
 }
-
-
 .container{
   width: 100%;
   height: auto;
@@ -158,7 +159,7 @@ main a:hover{
   row-gap: 20px;
   column-gap: 20px;
   grid-template-columns: auto auto;
-  width: 80%;
+  width: 90%;
   height: auto;
   padding: 10px;
   justify-content: center;
@@ -223,8 +224,6 @@ footer{
   .grid-container{
     background-image: url("../media/nw-adminbuilding.jpg");
     width: 100%;
-    padding-left: 20px;
-    justify-content: center;
   }
 
   .mobileLogo{
@@ -279,7 +278,7 @@ footer{
     display: none;
   }
   .regularNav{
-    display: center;
+    display: contents;
   }
 
   /*style rules for header */
@@ -430,14 +429,15 @@ footer{
   .mobile {
     display: none;
   }
+
+
+
   .grid-container{
     background-image: url("../media/nw-adminbuilding.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-    justify-content: center;
-    padding-left: 30px;
   }
 
   .grid-styles{
@@ -445,9 +445,10 @@ footer{
     row-gap: 20px;
     column-gap: 20px;
     grid-template-columns: auto auto auto auto;
-    width: 80%;
+    width: 90%;
     height: auto;
     padding: 10px;
+    justify-content: center;
   }
 
   .logo{
