@@ -3,9 +3,14 @@
 /*style rules for new nav*/
 /* Style the navigation menu */
 .topnav {
-  overflow: hidden;
+  position: fixed;
+  padding: 0px;
+  color: #fff;
   background-color: #fff;
-  position: relative;
+  width: 100%;
+  margin: 0;
+  height: 40px;
+  padding-bottom: 10px;
 }
 
 .topnav #myLinks {
@@ -34,7 +39,7 @@
 }
 
 .mobileLogo{
-  width: 65%;
+  width: 35%;
 }
 
 .mobileLinks a{
@@ -61,7 +66,8 @@ body{
   padding-top: 0px;
   background-color: #fff;
   margin:0px;
-  
+  background-image: url("../media/mobile-bg-green.jpg")
+
 
 }
 
@@ -143,7 +149,7 @@ main a:hover{
 }
 
 .grid-container{
-  background-image: url("../media/mobile-bg-green.jpg");
+  /*background-image: url("../media/mobile-bg-green.jpg");*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -211,8 +217,10 @@ footer{
 }
 
 .footerRow{
-  width: 100%;
+  padding: 10px;
+  color: #fff;
   background-color: #fff;
+  width: 100%;
   margin: 0;
 }
 
@@ -224,6 +232,9 @@ footer{
   .grid-container{
     background-image: url("../media/nw-adminbuilding.jpg");
     width: 100%;
+    margin: 0px;
+    padding: 10px;
+    padding-left: 20px;
   }
 
   .mobileLogo{
@@ -283,11 +294,14 @@ footer{
 
   /*style rules for header */
   .topBar{
-    background-color: #fff;
     position: fixed;
+    padding: 10px;
+    color: #fff;
+    background-color: #fff;
     width: 100%;
-    height: 100px;
-    margin-left: 0;
+    margin: 0;
+    height: 70px;
+    padding-bottom: 10px;
 
   }
   .logo{
