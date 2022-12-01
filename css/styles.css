@@ -24,6 +24,7 @@
   text-decoration: none;
   font-size: 17px;
   display: block;
+  background-color: #fff;
 }
 
 .topnav a.icon {
@@ -86,6 +87,7 @@ form-grid{
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 20px;
+
 }
 
 select{
@@ -113,6 +115,11 @@ padding: 20px 10px 20px 10px;
 text-align: center;
 margin: 10px;
 font-size: smaller;
+margin-left: 20px;
+}
+
+.requiredText{
+  color: red;
 }
 
 .access-container{
@@ -156,7 +163,7 @@ main a:hover{
   background-size: cover;
   overflow: hidden;
   display: grid;
-  padding: 50px 5px 30px 5px;
+  padding: 70px 5px 30px 5px;
   justify-content: center;
   margin: 0;
 }
@@ -176,7 +183,7 @@ main a:hover{
   width: 90%;
   display: flex;
   justify-content: center;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 .grid-item a{
@@ -238,7 +245,9 @@ footer{
     width: 100%;
     margin: 0px;
     padding: 10px;
-    padding-left: 20px;
+    padding-left: 25px;
+    padding-top: 100px;
+    justify-content: center;
   }
 
   .mobileLogo{
@@ -496,6 +505,7 @@ footer{
   display: block;
   text-align: center;
   justify-content: center;
+  margin-left: 30px;
   }
 
   .ca-spacing{
