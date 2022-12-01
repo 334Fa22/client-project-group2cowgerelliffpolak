@@ -9,6 +9,7 @@
   background-color: #fff;
   width: 100%;
   margin: 0;
+  margin-bottom: 20px;
   height: 40px;
   padding-bottom: 10px;
 }
@@ -145,7 +146,7 @@ main a:hover{
 
 
 #go-down{
-  height: 80px;
+  height: 90px;
 }
 
 .grid-container{
@@ -172,8 +173,10 @@ main a:hover{
 }
 
 .grid-styles img{
-  width: 100%;
+  width: 90%;
   display: flex;
+  justify-content: center;
+  padding-left: 20px;
 }
 
 .grid-item a{
@@ -225,6 +228,7 @@ footer{
 }
 
 @media screen and (min-width: 400px), print{
+
   .regularNav{
     display: none;
   }
